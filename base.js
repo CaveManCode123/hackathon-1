@@ -14,11 +14,10 @@ function jump() {
 let isAlive = setInterval(function () {
     
       let dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue("top"));
-    
+       //console.log(CactusLeft)
       let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left")
       );
-    
-  
+     //console.log(CactusLeft)
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
 
        alert("you ded");
