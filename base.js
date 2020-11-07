@@ -17,7 +17,7 @@ let isAlive = setInterval(function () {
        //console.log(dinoTop);
       let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left")
       );
-     //console.log(CactusLeft);
+     //console.log(cactusLeft);
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
 
        alert("you ded");
